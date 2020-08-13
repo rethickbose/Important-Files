@@ -26,4 +26,30 @@
 		   |
 		   V
 
+
+
+______________________________________________________
+hover
+
+		//set-height
+		
+		
+		.classname{max-height=//
+		set transition=transform 450ms //slight delay for hover
+		}
+
+		.classname:hover{
+			transform:scale(1.08);
+		}
+		//for scrolling in x direction 
+		overflow-y:hidden
+		overflow-x:scroll  
+		//give padding
+
+		//for hiding scrollbar
+		.classname::-webkit-scrollbar{
+			display:none;
+		}
+
+
 }
