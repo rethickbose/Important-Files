@@ -1,6 +1,21 @@
 .classname{
 
+---------------------------------------------------------
 
+	Gradient overlay with background image
+	background:
+    	linear-gradient(to bottom,rgba(255,255,255,0.9),rgb(0,0,0,0.9)),
+      url("../images/background4.jpg") 
+   ;
+
+
+	//last element of rgba(*,*,*,*) refers to transparency 0 is null and 1 is full dark color
+
+
+
+
+	
+-------------------------------------------------------------
 	display:grid;
 	
 	//for displaying colum grids
@@ -50,6 +65,12 @@ hover
 		.classname::-webkit-scrollbar{
 			display:none;
 		}
+
+
+		// background animation 
+		ParticlesBg  //particles-bg
+		github
+
 
 
 }
